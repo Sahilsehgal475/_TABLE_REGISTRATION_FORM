@@ -1,0 +1,60 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restaurant Table Registration Form</title>
+    <link rel="stylesheet" href="Table_reservation_form.css">
+	<link rel = "icon" href = logo.jpg
+                 type = "logo.jpg">
+	
+</head>
+<body>
+
+    <div><h1>Restaurant Table Registration Form</h1></div>
+    <body style="background-color:rgb(234,232,220)"></body>
+	<form>
+		<label>
+			<span>Table Number:</span>
+			<input type="number" name="tableNumber" required>
+		</label>
+		<label>
+			<span>Number of Guests:</span>
+			<input type="number" name="numSeats" required>
+		</label>
+		<label>
+			<span>Location:</span>
+			<select name="location" required>
+				<option value="">--Please select--</option>
+				<option value="indoor">Indoor</option>
+				<option value="outdoor">Outdoor</option>
+			</select>
+		</label>
+		<label>
+			<span>Reservation Date:</span>
+			<input type="date" name="reservationDate" required>
+		</label>
+		<label>
+			<span>Reservation Time:</span>
+			<input type="time" name="reservationTime" required>
+		</label>
+		<label>
+			<span>Contact Name:</span>
+			<input type="text" name="contactName" required>
+		</label>
+		<label>
+			<span>Contact Phone:</span>
+			<input type="tel" name="contactPhone" required>
+		</label>
+		<label>
+			<span>Contact Email:</span>
+			<input type="email" name="contactEmail" required>
+		</label>
+		<label>
+			<input type="submit" value="Submit">
+		</label>
+	</form>
+   
+</body>
+</html>
